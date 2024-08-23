@@ -5,6 +5,7 @@ import FAQ from "@/sections/FAQ";
 import Features from "@/sections/Features";
 import Hero from "@/sections/Hero";
 import Popularity from "@/sections/Popularity";
+import Promotion from "@/sections/Promotion";
 export default function Home() {
   return (
     <div className="max-w-6xl xl:px-0 px-4 flex-col items-center mx-auto pb-8 md:space-y-32 space-y-12">
@@ -16,6 +17,7 @@ export default function Home() {
       <Features/>
       <Collection/>
       <FAQ/>
+      <Promotion/>
     </div>
   );
 }

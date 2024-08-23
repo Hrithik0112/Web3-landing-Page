@@ -39,7 +39,7 @@ const FAQ = () => {
                 subHeading="Frequently asked Questions"
             />
 
-            <div className="flex flex-col mt-6 max-w-[500px] mx-auto">
+            <div className="flex flex-col mt-6 max-w-[60%] mx-auto">
                 {questions.map((prop, i) => (
                     <QAComponent key={i} {...prop} />
                 ))}
