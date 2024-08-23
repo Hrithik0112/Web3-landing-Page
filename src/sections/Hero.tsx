@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className="w-full flex flex-col md:flex-row items-center space-x-8 mt-10   ">
+    <section className="w-full flex flex-col md:flex-row items-center space-x-8">
             <div className=" md:w-1/2 flex-col space-y-8">
                 <h1 className="md:text-8xl text-5xl">
                     Discover Collect Sell Digital NFT.
