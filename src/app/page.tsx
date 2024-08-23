@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import AboutUs from "@/sections/AboutUs";
+import Features from "@/sections/Features";
 import Hero from "@/sections/Hero";
 import Popularity from "@/sections/Popularity";
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero/>
       <Popularity/>
       <AboutUs/>
+      <Features/>
     </div>
   );
 }
