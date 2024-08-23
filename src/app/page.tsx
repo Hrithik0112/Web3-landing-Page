@@ -3,6 +3,7 @@ import AboutUs from "@/sections/AboutUs";
 import Collection from "@/sections/Collection";
 import FAQ from "@/sections/FAQ";
 import Features from "@/sections/Features";
+import Footer from "@/sections/Footer";
 import Hero from "@/sections/Hero";
 import Popularity from "@/sections/Popularity";
 import Promotion from "@/sections/Promotion";
@@ -18,6 +19,7 @@ export default function Home() {
       <Collection/>
       <FAQ/>
       <Promotion/>
+      <Footer/>
     </div>
   );
 }
