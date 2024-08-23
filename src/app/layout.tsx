@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="font-redzone bg-[#290c36] text-white">{children}</body>
     </html>
   );
 }
