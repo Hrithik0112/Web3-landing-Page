@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import AboutUs from "@/sections/AboutUs";
 import Collection from "@/sections/Collection";
+import FAQ from "@/sections/FAQ";
 import Features from "@/sections/Features";
 import Hero from "@/sections/Hero";
 import Popularity from "@/sections/Popularity";
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutUs/>
       <Features/>
       <Collection/>
+      <FAQ/>
     </div>
   );
 }
