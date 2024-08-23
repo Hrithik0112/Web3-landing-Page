@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import AboutUs from "@/sections/AboutUs";
 import Hero from "@/sections/Hero";
 import Popularity from "@/sections/Popularity";
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header/>
       <Hero/>
       <Popularity/>
+      <AboutUs/>
     </div>
   );
 }
