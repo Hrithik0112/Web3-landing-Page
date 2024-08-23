@@ -15,7 +15,7 @@ export default function Button({
         <button
             {...props}
             type={type ?? "button"}
-            className={`rounded-full py-4 px-6 font-sans  ${
+            className={`rounded-full py-4 px-6  font-nominee  ${
                 outline
                     ? "border-2 border-white bg-transparent hover:bg-gray-50/10 hover:shadow-md hover:shadow-blue-600 duration-150"
                     : "bg-[#4326f3] hover:bg-[#3b1dff] hover:shadow-md hover:shadow-white duration-150"

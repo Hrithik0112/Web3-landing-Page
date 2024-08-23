@@ -11,3 +11,7 @@
   font-family: "Nominee";
   src: url("/fonts/Nominee-Medium.ttf") format("truetype");
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
