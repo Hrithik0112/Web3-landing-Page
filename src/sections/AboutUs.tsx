@@ -37,7 +37,7 @@ const AboutUs = () => {
         <img
             src="/assets/robo.png"
             alt="robo"
-            className="object-contain max-w-[80%] max-h-[90%] mx-auto"
+            className="object-contain max-w-[80%] max-h-[90%] mx-auto hover:scale-105 duration-300"
         />
     </div>
 </section>

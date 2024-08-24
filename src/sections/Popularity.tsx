@@ -33,8 +33,8 @@ const cards: CardProps[] = [
 
 export default function Popularity() {
     return (
-        <section className="bg-white/10 drop-shadow-md rounded-3xl flex-col w-full">
-            <div className="px-4 flex border-b-2 border-[#290c36] py-6 items-center justify-around gap-4 ">
+        <section className="bg-white/10 drop-shadow-md rounded-3xl flex-col flex flex-wrap w-full">
+            <div className="px-4 flex flex-wrap flex-row border-b-2 border-[#290c36] py-6 items-center justify-around gap-4 ">
                 {values.map((it, i) => (
                     <div key={i}>
                         <span className="md:text-8xl text-6xl font-redzone ">
