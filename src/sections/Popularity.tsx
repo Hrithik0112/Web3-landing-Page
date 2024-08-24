@@ -1,13 +1,14 @@
 import Card, { CardProps } from '@/components/Card';
+import NumberTicker from '@/components/NumberTicker';
 import React from 'react'
 import { AiOutlineCheckCircle } from 'react-icons/ai';
 import { MdOutlineVerifiedUser } from 'react-icons/md';
 import { RiWallet3Line } from 'react-icons/ri';
 
 const values = [
-    { value: "1.5", label: "Collections" },
-    { value: "102", label: "Artworks" },
-    { value: "3.2", label: "Artisits" },
+    { value: 15, label: "Collections" },
+    { value: 102, label: "Artworks" },
+    { value: 32, label: "Artisits" },
 ];
 
 const cards: CardProps[] = [
@@ -38,7 +39,8 @@ export default function Popularity() {
                 {values.map((it, i) => (
                     <div key={i}>
                         <span className="md:text-8xl text-6xl font-redzone ">
-                            {it.value}K+
+                            <NumberTicker value={it.value} className='text-white' />
+                            K+
                         </span>
                         <br />
                         <span className="text-xl pt-4">{it.label}</span>
