@@ -15,9 +15,9 @@ const Collection = () => {
             </div>
             <div className="flex-[2] overflow-x-scroll flex-grow max-w-[90vw] no-scrollbar inline-flex flex-row gap-4">
                 {[1, 2, 3, 1, 2].map((n, i) => (
-                    <div className="min-w-[200px] rounded-md" key={i}>
+                    <div className="min-w-[200px] rounded-[30px] overflow-hidden" key={i}>
                         <img
-                            className="object-cover"
+                            className="object-cover hover:scale-110 duration-300"
                             src={`/assets/av-${n}.png`}
                             alt="avatar"
                         />
