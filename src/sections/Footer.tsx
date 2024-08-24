@@ -49,7 +49,7 @@ const Footer = () => {
                                 ) : (
                                     <a
                                         href={`#${appLinks[i]}`}
-                                        className={`font-nominee text-gray-500 text-xs hover:text-white`}
+                                        className={`font-nominee text-gray-500 text-xs hover:text-white duration-300`}
                                     >
                                         {link}
                                     </a>
