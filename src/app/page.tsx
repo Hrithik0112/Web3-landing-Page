@@ -9,7 +9,7 @@ import Popularity from "@/sections/Popularity";
 import Promotion from "@/sections/Promotion";
 export default function Home() {
   return (
-    <div className="max-w-6xl xl:px-0 px-4 flex-col items-center mx-auto pb-8 md:space-y-32 space-y-12">
+    <div className="max-w-6xl xl:px-0 px-4 flex-col items-center mx-auto pb-8 md:space-y-32 space-y-12 overflow-x-clip">
 
       <Header/>
       <Hero/>
